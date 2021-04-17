@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript">
+        window['process'] = {
+            env: {
+                NODE_ENV: 'development'
+            }
+        }
+    </script>
+</head>
+<body style="margin: 0; background-color: lightgray">
+    <div>
+        <canvas id="paper-canvas"></canvas>
+    </div>
+</body>
+<footer>
+    <script type="text/javascript" src="build/vendor.pack.js"></script>
+    <script type="text/javascript" src="build/runtime.pack.js"></script>
+    <script type="text/javascript" src="build/main.pack.js"></script>
+</footer>
+</html>
